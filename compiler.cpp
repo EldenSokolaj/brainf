@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
         if(argc == 4 && string(argv[3]) == "asm"){
             del = false;
         } else {
-            cout << "Usage: " << argv[0] << " inputfile outputfile" << endl;
+            cout << "Usage: " << argv[0] << " inputfile outputfile (optional: add 'asm' to save assembly file)" << endl;
             return 0;
         }
     }
